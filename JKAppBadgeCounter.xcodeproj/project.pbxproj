@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383E20E51CE3F86600BFE365 /* JKMessageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E20E41CE3F86600BFE365 /* JKMessageDetailsViewController.swift */; };
+		38BCD9E51CE2C48F001F2D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BCD9E41CE2C48F001F2D8D /* AppDelegate.swift */; };
+		38BCD9E71CE2C48F001F2D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BCD9E61CE2C48F001F2D8D /* ViewController.swift */; };
+		38BCD9EA1CE2C48F001F2D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BCD9E81CE2C48F001F2D8D /* Main.storyboard */; };
+		38BCD9EC1CE2C48F001F2D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BCD9EB1CE2C48F001F2D8D /* Assets.xcassets */; };
+		38BCD9EF1CE2C48F001F2D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BCD9ED1CE2C48F001F2D8D /* LaunchScreen.storyboard */; };
+		38BCD9F71CE2C615001F2D8D /* JKMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BCD9F61CE2C615001F2D8D /* JKMessage.swift */; };
+		38BCD9F91CE34D5D001F2D8D /* JKMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BCD9F81CE34D5D001F2D8D /* JKMessageTableViewCell.swift */; };
+		38BCD9FC1CE34FDB001F2D8D /* read.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BCD9FA1CE34FDB001F2D8D /* read.png */; };
+		38BCD9FD1CE34FDB001F2D8D /* unread.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BCD9FB1CE34FDB001F2D8D /* unread.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		383E20E41CE3F86600BFE365 /* JKMessageDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMessageDetailsViewController.swift; sourceTree = "<group>"; };
+		38BCD9E11CE2C48F001F2D8D /* JKAppBadgeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKAppBadgeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BCD9E41CE2C48F001F2D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BCD9E61CE2C48F001F2D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38BCD9E91CE2C48F001F2D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BCD9EB1CE2C48F001F2D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BCD9EE1CE2C48F001F2D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BCD9F01CE2C48F001F2D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BCD9F61CE2C615001F2D8D /* JKMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMessage.swift; sourceTree = "<group>"; };
+		38BCD9F81CE34D5D001F2D8D /* JKMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMessageTableViewCell.swift; sourceTree = "<group>"; };
+		38BCD9FA1CE34FDB001F2D8D /* read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read.png; sourceTree = "<group>"; };
+		38BCD9FB1CE34FDB001F2D8D /* unread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unread.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BCD9DE1CE2C48F001F2D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BCD9D81CE2C48F001F2D8D = {
+			isa = PBXGroup;
+			children = (
+				38BCD9E31CE2C48F001F2D8D /* JKAppBadgeCounter */,
+				38BCD9E21CE2C48F001F2D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38BCD9E21CE2C48F001F2D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BCD9E11CE2C48F001F2D8D /* JKAppBadgeCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BCD9E31CE2C48F001F2D8D /* JKAppBadgeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				38BCD9FA1CE34FDB001F2D8D /* read.png */,
+				38BCD9FB1CE34FDB001F2D8D /* unread.png */,
+				38BCD9E41CE2C48F001F2D8D /* AppDelegate.swift */,
+				38BCD9E61CE2C48F001F2D8D /* ViewController.swift */,
+				38BCD9E81CE2C48F001F2D8D /* Main.storyboard */,
+				38BCD9EB1CE2C48F001F2D8D /* Assets.xcassets */,
+				38BCD9ED1CE2C48F001F2D8D /* LaunchScreen.storyboard */,
+				38BCD9F01CE2C48F001F2D8D /* Info.plist */,
+				38BCD9F61CE2C615001F2D8D /* JKMessage.swift */,
+				38BCD9F81CE34D5D001F2D8D /* JKMessageTableViewCell.swift */,
+				383E20E41CE3F86600BFE365 /* JKMessageDetailsViewController.swift */,
+			);
+			path = JKAppBadgeCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BCD9E01CE2C48F001F2D8D /* JKAppBadgeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BCD9F31CE2C48F001F2D8D /* Build configuration list for PBXNativeTarget "JKAppBadgeCounter" */;
+			buildPhases = (
+				38BCD9DD1CE2C48F001F2D8D /* Sources */,
+				38BCD9DE1CE2C48F001F2D8D /* Frameworks */,
+				38BCD9DF1CE2C48F001F2D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKAppBadgeCounter;
+			productName = JKAppBadgeCounter;
+			productReference = 38BCD9E11CE2C48F001F2D8D /* JKAppBadgeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BCD9D91CE2C48F001F2D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jayesh Kawli Backup";
+				TargetAttributes = {
+					38BCD9E01CE2C48F001F2D8D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 38BCD9DC1CE2C48F001F2D8D /* Build configuration list for PBXProject "JKAppBadgeCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BCD9D81CE2C48F001F2D8D;
+			productRefGroup = 38BCD9E21CE2C48F001F2D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BCD9E01CE2C48F001F2D8D /* JKAppBadgeCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BCD9DF1CE2C48F001F2D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BCD9EF1CE2C48F001F2D8D /* LaunchScreen.storyboard in Resources */,
+				38BCD9FD1CE34FDB001F2D8D /* unread.png in Resources */,
+				38BCD9EC1CE2C48F001F2D8D /* Assets.xcassets in Resources */,
+				38BCD9EA1CE2C48F001F2D8D /* Main.storyboard in Resources */,
+				38BCD9FC1CE34FDB001F2D8D /* read.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BCD9DD1CE2C48F001F2D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BCD9F91CE34D5D001F2D8D /* JKMessageTableViewCell.swift in Sources */,
+				38BCD9E71CE2C48F001F2D8D /* ViewController.swift in Sources */,
+				38BCD9E51CE2C48F001F2D8D /* AppDelegate.swift in Sources */,
+				383E20E51CE3F86600BFE365 /* JKMessageDetailsViewController.swift in Sources */,
+				38BCD9F71CE2C615001F2D8D /* JKMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38BCD9E81CE2C48F001F2D8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BCD9E91CE2C48F001F2D8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BCD9ED1CE2C48F001F2D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BCD9EE1CE2C48F001F2D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BCD9F11CE2C48F001F2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38BCD9F21CE2C48F001F2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BCD9F41CE2C48F001F2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAppBadgeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAppBadgeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38BCD9F51CE2C48F001F2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAppBadgeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAppBadgeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BCD9DC1CE2C48F001F2D8D /* Build configuration list for PBXProject "JKAppBadgeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BCD9F11CE2C48F001F2D8D /* Debug */,
+				38BCD9F21CE2C48F001F2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BCD9F31CE2C48F001F2D8D /* Build configuration list for PBXNativeTarget "JKAppBadgeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BCD9F41CE2C48F001F2D8D /* Debug */,
+				38BCD9F51CE2C48F001F2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38BCD9D91CE2C48F001F2D8D /* Project object */;
+}
